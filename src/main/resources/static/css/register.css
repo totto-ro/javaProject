@@ -1,0 +1,109 @@
+@charset "ISO-8859-1";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 80px;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.newRegister{
+    background-color:steelblue;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+ 
+    padding: 70px 80px;
+    list-style: none;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 60px;
+    color: azure;
+    margin-bottom: 25px;
+}
+
+.addInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+
+.addInput > input, select{
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 10px;
+    width: 300px;
+}
+
+.button{
+    font-size: 35px;
+    padding: 20px;
+    background-color:lightseagreen;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 7px rgb(0, 0, 0);
+    width: 280px;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color:orange;
+    color: azure;
+    cursor: pointer;
+}
+
+.userLogin{
+    background-color:steelblue;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+
+    padding: 70px 70px;
+    list-style: none;
+    border-radius: 10px;
+}
+
+.login > input{
+	margin-bottom: 20px;
+    font-size: 20px;
+    width: 300px;
+    padding:10px;
+    
+}
+
+.login{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+nav{
+	font-family: sans-serif;
+	margin:20px;
+	font-size: 30px;
+    
+}
+
+nav > h1 > a{
+	margin-right: 35px;
+}
+
+.login{
+	margin-top:10px;
+}
+
+strong{
+	font-size: 20px;
+	 color: DarkRed;
+}
